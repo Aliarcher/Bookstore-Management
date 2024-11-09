@@ -72,21 +72,15 @@ PyQt5 (برای رابط گرافیکی)
 مراحل نصب:
 کلون کردن یا دانلود کردن پروژه:
 
-bash
-Copy code
 git clone https://github.com/username/bookstore-app.git
 cd bookstore-app
 نصب وابستگی‌ها:
 
-bash
-Copy code
 pip install -r requirements.txt
 فایل requirements.txt به طور معمول شامل کتابخانه‌های موردنیاز مانند PyQt5 و Kivy است. برای هر نسخه از نرم‌افزار ممکن است کتابخانه‌های خاصی نیاز باشد.
 
 اجرای برنامه: برای اجرای هر نسخه از نرم‌افزار، به دایرکتوری مربوطه بروید و فایل Python را اجرا کنید:
 
-bash
-Copy code
 python app.py
 نکات اضافی
 در نسخه‌هایی که از پایگاه داده SQLite استفاده می‌کنند، پایگاه داده به طور خودکار ساخته می‌شود و نیازی به تنظیمات اضافی ندارد.
